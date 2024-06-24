@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/btnhome"
+        android:icon="@drawable/baseline_home"
+        android:title="Inicio"
+        >
+
+    </item>
+
+    <item
+        android:id="@+id/btnlista"
+        android:icon="@drawable/baseline_list"
+        android:title="Lista"
+        >
+
+    </item>
+
+    <item
+        android:id="@+id/btndata"
+        android:icon="@drawable/baseline_data"
+        android:title="DataBase"
+        >
+
+    </item>
+
+    <item
+        android:id="@+id/btnacerca"
+        android:icon="@drawable/baseline_exit"
+        android:title="Acerca de"
+        >
+
+    </item>
+
+
+
+
+</menu>
