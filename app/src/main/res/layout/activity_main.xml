@@ -19,16 +19,16 @@
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
+
         android:id="@+id/btnNavigator"
         app:layout_constraintEnd_toStartOf="parent"
-        app:layout_constraintStart_toSEndOf="parent"
+        app:layout_constraintStart_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         android:background="@color/barra"
         app:menu="@menu/buttom_menu"
         app:itemIconSize="20dp"
-        app:itemTextColor="@color/miColor">
+        app:itemTextColor="@color/miColor"/>
 
-    </com.google.android.material.bottomnavigation.BottomNavigationView>
 
 
 
