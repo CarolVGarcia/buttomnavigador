@@ -13,20 +13,23 @@
         android:layout_height="match_parent"
         android:background="@color/fondo"
         android:padding="20sp"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="60dp">
 
     </FrameLayout>
+
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:layout_height="wrap_content"
+        android:paddingBottom="2dp"
         android:layout_width="match_parent"
-
+        app:itemIconSize="30dp"
         android:id="@+id/btnNavigator"
         app:layout_constraintEnd_toStartOf="parent"
         app:layout_constraintStart_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         android:background="@color/barra"
         app:menu="@menu/buttom_menu"
-        app:itemIconSize="20dp"
+        app:iconSize="30dp"
         app:itemTextColor="@color/miColor"/>
 
 
